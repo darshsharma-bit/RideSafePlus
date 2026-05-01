@@ -23,7 +23,7 @@ RideSafe+ is an intelligent hardware system designed for vehicles (bicycles, sco
 
 ## 5. Circuit Diagram
 
-![Circuit Diagram](circuit_diagram.jpg)
+![Circuit Diagram](circuit_diagram.png)
 
 ## 6. Working Principle
 1. **Vibration Tracking (IMU)**: Calculates "Jerk" (the rate of change of acceleration) by comparing fast and slow Exponential Moving Averages (EMA). This isolates sudden, sharp impacts from general riding vibrations.
@@ -69,8 +69,7 @@ The code is divided into highly modular functions to ensure readability and main
 2. Add the **ESP32 Board Manager** via `Preferences -> Additional Board Manager URLs`: `https://dl.espressif.com/dl/package_esp32_index.json`
 3. Install the required libraries via the Arduino Library Manager.
 4. Clone or download this repository.
-5. Place your `circuit_diagram.png` in the root folder.
-6. Open `RideSafePlus.ino` in the Arduino IDE.
+5. Open `RideSafePlus.ino` in the Arduino IDE.
 
 ## 11. How to Upload Code to Arduino/ESP32
 1. Connect your ESP32 to your computer via USB.
