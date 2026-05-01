@@ -22,9 +22,8 @@ RideSafe+ is an intelligent hardware system designed for vehicles (bicycles, sco
 - **Miscellaneous**: Breadboard, Jumper wires, USB Cable for power/programming.
 
 ## 5. Circuit Diagram
-*(Note: Please upload and place your own circuit diagram photo here)*
 
-![Circuit Diagram](circuit_diagram.png)
+![Circuit Diagram](circuit_diagram.jpg)
 
 ## 6. Working Principle
 1. **Vibration Tracking (IMU)**: Calculates "Jerk" (the rate of change of acceleration) by comparing fast and slow Exponential Moving Averages (EMA). This isolates sudden, sharp impacts from general riding vibrations.
